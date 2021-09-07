@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 .bg {
   /* The image used */
@@ -12,11 +14,23 @@
 }
 
 .row {
-  height: 50rem;
+  height: 30rem;
   width: 100%;
 }
 
 img {
   margin-bottom: -15% !important;
   z-index: 1;
+}
+
+@media screen and (max-width: 985px ) {
+  .col-4{
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 782px ) {
+  .col-4{
+    width: 75%;
+  }
 }

@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+.bg {
+  /* The image used */
+  background-image: url("Image/I\ guess\ bein'\ free\ is\ like_\ 1.png");
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.row {
+  height: 50rem;
+  width: 100%;
+}
+
+img {
+  margin-bottom: -15% !important;
+  z-index: 1;
+}
